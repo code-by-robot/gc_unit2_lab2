@@ -41,7 +41,7 @@ while(checktocontinue == "yes")
             back = "greater than 60.";
         }
     }
-    Console.WriteLine(front+back);
+    Console.WriteLine(userinput+ ": "+front+back);
     Console.WriteLine(name+", would you like to analyze another number? Yes or No.");
     checktocontinue = Console.ReadLine().ToLower();
 }
